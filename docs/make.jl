@@ -1,25 +1,25 @@
 # docs/make.jl
-# Make Documentation for {PROJECT_NAME}.jl
+# Make Documentation for AbstractRationals.jl
 
 push!(LOAD_PATH, "../src/")
 
-using Documenter, {PROJECT_NAME}
+using Documenter, AbstractRationals
 
 makedocs(
-    modules   = [{PROJECT_NAME}],
+    modules   = [AbstractRationals],
     doctest   = true,
     clean     = false,
     linkcheck = false,
     format    = Documenter.HTML(prettyurls=!("local" in ARGS)),
-    sitename  = "{PROJECT_NAME}.jl",
-    authors   = "{FULL_NAME}",
+    sitename  = "AbstractRationals.jl",
+    authors   = "Brandon H Gomes",
     pages     = [
         "Home" => "index.md",
     ],
 )
 
 deploydocs(
-    repo = "github.com/{USERNAME}/{PROJECT_NAME}.jl.git",
+    repo = "github.com/bhgomes/AbstractRationals.jl.git",
     target = "build",
     deps = nothing,
     make = nothing,
