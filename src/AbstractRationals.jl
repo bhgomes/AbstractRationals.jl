@@ -11,6 +11,9 @@ See https://github.com/bhgomes/AbstractRationals.jl for more details.
 """
 module AbstractRationals
 
-
+include("core.jl")
+include("conversion.jl")
+include("arithmetic.jl")
+include("comparison.jl")
 
 end  # module AbstractRationals
