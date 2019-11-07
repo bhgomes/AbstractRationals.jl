@@ -13,6 +13,7 @@ module AbstractRationals
 
 include("core.jl")
 include("conversion.jl")
+include("rounding.jl")
 include("arithmetic.jl")
 include("comparison.jl")
 
