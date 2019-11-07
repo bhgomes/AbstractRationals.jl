@@ -2,3 +2,6 @@ name = "AbstractRationals"
 uuid = "4958c51a-00f6-11ea-2b94-f3f784e4d148"
 authors = ["bhgomes <bhgomes.github@gmail.com>"]
 version = "0.1.0"
+
+[compat]
+julia = "1"
