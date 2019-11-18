@@ -8,7 +8,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/a9baxip6gamxwy7h?svg=true)](https://ci.appveyor.com/project/bhgomes/abstractrationals-jl)
 [![Coverage Status](https://coveralls.io/repos/github/bhgomes/AbstractRationals.jl/badge.svg?branch=master)](https://coveralls.io/github/bhgomes/AbstractRationals.jl?branch=master)
 [![Formatting](https://img.shields.io/badge/format-tab%204%20margin%2096-888)](https://github.com/domluna/JuliaFormatter.jl)
-[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black)](https://github.com/bhgomes/AbstractRationals.jl)
 
 _Abstractions for Rational Numbers_
 
@@ -19,12 +18,14 @@ _Abstractions for Rational Numbers_
 To install, open a Julia REPL and run the following:
 
 ```julia
-]add https://github.com/bhgomes/AbstractRationals.jl
+]add AbstractRationals
 ```
 
 ---
 <div align="center">
 
-#### [(UN)LICENSE](UNLICENSE)
-Knowledge is Freedom.
+[![Author](https://img.shields.io/badge/Author-bhgomes-blue?style=for-the-badge)](https://github.com/bhgomes)
+[![License](https://img.shields.io/badge/(UN)-LICENSE-lightgray?style=for-the-badge)](UNLICENSE)
+[![GitHub Repo](https://img.shields.io/badge/repo-GitHub-black?style=for-the-badge)](https://github.com/bhgomes/AbstractRationals.jl)
+
 </div>
